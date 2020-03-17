@@ -1,6 +1,6 @@
 // my own ls
 // Author:mizoc<yaesuft729@gmail.com>
-// Licence:MIT
+// License:MIT
 #include <dirent.h>
 #include <stdlib.h>
 #include <cstdio>
