@@ -1,4 +1,4 @@
-// my own ls
+// my ls
 // Author:mizoc<yaesuft729@gmail.com>
 // License:MIT
 #include <dirent.h>
@@ -16,8 +16,8 @@ int main(int argc, char** argv) {
   } else {
     switch (*argv[1]) {
       case 'h':
-			case '?':
-        cout << "[Usage]  " << argv[0] << " directory" << endl;
+      case '?':
+        cout << "[Usage]  " << argv[0] << " (directory)" << endl;
         exit(1);
         break;
     }
